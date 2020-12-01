@@ -1,0 +1,137 @@
+nav {
+    background: rgb(0, 0, 0);
+    height: 20px;
+}
+
+.nav{
+    color: cornsilk;
+    text-emphasis-color: cornsilk;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.nav:hover{
+    border: 1px solid red;
+}
+
+li{
+	color: cornsilk;
+	align-items: center;
+	display: inline;
+	padding: 15px;
+}
+
+header{
+    height: 200px; 
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+}
+
+p{
+    width: 300px; 
+    margin-top: 30px;
+    align-items: center;
+}
+
+body h3{
+    align-items: center;
+    font-size: 30px;
+}
+
+body {
+	background: linear-gradient(-45deg, #624acf, #02787c, #18be8de1, #09813b);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.sketchfab-embed-wrapper1{
+    padding: 0 0 0 6px;
+    float: left;
+    width: 50%;
+    display: flex;
+    position: left;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.sketchfab-embed-wrapper2{
+    padding: 0 0 0 6px;
+    float: left;
+    width: 50%;
+    display: flex;
+    position: relative;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.dent{
+    position: relative;
+    padding-top: 490px;
+}
+
+.dent h3{
+    font-size: 30px;
+}
+
+#elvis{
+    display:flex;
+    position: relative;
+    align-items: left;
+    order: end;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    padding-top: 480px;
+}
+
+div.sketchfab-embed-wrapper1:hover {
+    padding: 15px;
+    border-radius:5px;
+    border-color: crimson;
+}
+
+div.sketchfab-embed-wrapper2:hover {
+    padding: 15px;
+    border-radius:5px;
+    border-color: crimson;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 1px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
